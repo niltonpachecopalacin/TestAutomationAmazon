@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36399" started-at="2020-04-17T00:05:12 COT" finished-at="2020-04-17T00:05:49 COT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="36399" started-at="2020-04-17T00:05:12 COT" finished-at="2020-04-17T00:05:49 COT">
+      <class name="pe.com.amazon.testcases.T_automationExam">
+        <test-method status="PASS" signature="Configuracion()[pri:0, instance:pe.com.amazon.testcases.T_automationExam@1d548a08]" name="Configuracion" is-config="true" duration-ms="6579" started-at="2020-04-17T00:05:12 COT" finished-at="2020-04-17T00:05:19 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Configuracion -->
+        <test-method status="PASS" signature="iniciarTest(java.lang.reflect.Method)[pri:0, instance:pe.com.amazon.testcases.T_automationExam@1d548a08]" name="iniciarTest" is-config="true" duration-ms="4" started-at="2020-04-17T00:05:19 COT" finished-at="2020-04-17T00:05:19 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pe.com.amazon.testcases.T_automationExam.Ingreso()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniciarTest -->
+        <test-method status="PASS" signature="Ingreso()[pri:1, instance:pe.com.amazon.testcases.T_automationExam@1d548a08]" name="Ingreso" duration-ms="105" started-at="2020-04-17T00:05:19 COT" finished-at="2020-04-17T00:05:19 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ingreso -->
+        <test-method status="PASS" signature="printResult(org.testng.ITestResult)[pri:0, instance:pe.com.amazon.testcases.T_automationExam@1d548a08]" name="printResult" is-config="true" duration-ms="1" started-at="2020-04-17T00:05:19 COT" finished-at="2020-04-17T00:05:19 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Ingreso status=SUCCESS method=T_automationExam.Ingreso()[pri:1, instance:pe.com.amazon.testcases.T_automationExam@1d548a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printResult -->
+        <test-method status="PASS" signature="iniciarTest(java.lang.reflect.Method)[pri:0, instance:pe.com.amazon.testcases.T_automationExam@1d548a08]" name="iniciarTest" is-config="true" duration-ms="1" started-at="2020-04-17T00:05:21 COT" finished-at="2020-04-17T00:05:21 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pe.com.amazon.testcases.T_automationExam.cargaDataExcel(java.lang.String,java.lang.String) throws java.io.IOException,atu.testrecorder.exceptions.ATUTestRecorderException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniciarTest -->
+        <test-method status="PASS" signature="cargaDataExcel(java.lang.String, java.lang.String)[pri:2, instance:pe.com.amazon.testcases.T_automationExam@1d548a08]" name="cargaDataExcel" duration-ms="27445" started-at="2020-04-17T00:05:21 COT" data-provider="dataCliente" finished-at="2020-04-17T00:05:48 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Español - ES]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cargaDataExcel -->
+        <test-method status="PASS" signature="printResult(org.testng.ITestResult)[pri:0, instance:pe.com.amazon.testcases.T_automationExam@1d548a08]" name="printResult" is-config="true" duration-ms="3" started-at="2020-04-17T00:05:48 COT" finished-at="2020-04-17T00:05:48 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cargaDataExcel status=SUCCESS method=T_automationExam.cargaDataExcel(java.lang.String, java.lang.String)[pri:2, instance:pe.com.amazon.testcases.T_automationExam@1d548a08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printResult -->
+        <test-method status="PASS" signature="End()[pri:0, instance:pe.com.amazon.testcases.T_automationExam@1d548a08]" name="End" is-config="true" duration-ms="739" started-at="2020-04-17T00:05:48 COT" finished-at="2020-04-17T00:05:49 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- pe.com.amazon.testcases.T_automationExam -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
